@@ -1,3 +1,147 @@
-#demo{
-    color: red;
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #323232;
+    padding: 20px;
+}
+
+#headerfooter {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#section1 {
+    background-color: rgb(90, 90, 90);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+#section2 {
+    background-color: rgb(90, 90, 90);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+#section3 {
+    background-color: rgb(90, 90, 90);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+#section4 {
+    background-color: rgb(90, 90, 90);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+#section5 {
+    background-color: rgb(90, 90, 90);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.SectionPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin: 20px;
+}
+
+#photo1 {
+    max-width: 300px;
+    margin: 0;
+}
+
+#photo4 {
+    display: inline-block; /* élèment qui reste sur la même ligne que les autres mais qui peut avoir une hauteur et une largeur */
+    max-width: 150px;
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 20px;
+}
+
+#photo5 {
+    display: inline-block;
+    max-width: 150px;
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 20px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #bababa;
+}
+
+#texteheaderfooter {
+    color: #323232;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.contactitem {
+    display: inline-block;
+    margin: 10px 20px;
+    width: 200px;
+}
+
+.contacttext {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.thankyou {
+    text-align: left;
+    margin-top: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.etoile {
+    width: 100px;
+    height: auto;
+    margin: 0;
+}
+
+.etoile2 {
+    width: 100px;
+    height: auto;
+    margin: 0;
+}
+
+.mescrea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.crea {
+    width: 300px;
+    height: auto;
 }

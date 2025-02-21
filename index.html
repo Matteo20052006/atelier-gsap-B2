@@ -1,19 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- Stylesheat -->
-    <link rel="stylesheat" href="styles.css">
-
+    <title>Mes Sections</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<header id="headerfooter">
+    <h2 id="texteheaderfooter">Je me présente pour vous</h2>
+</header>
 <body>
+    <section id="section1">
+        <h2 id="texte1">Mon cv</h2>
+        <p>Voici pourquoi vous devriez me prendre</p>
+        <div class="SectionPhoto">
+            <img class="etoile" src="asset/img/étoile1.png" alt="Étoile 1">
+            <img id="photo1" src="asset/img/cv.png" alt="CV">
+            <img class="etoile" src="asset/img/étoile2.png" alt="Étoile 2">
+        </div>
+    </section>
 
-    <h1 id="demo">Demo</h1>
-    
-    <!-- JavaScript and GSAP -->
+    <section id="section2">
+        <h2 id="texte2">Mes créations</h2>
+        <p>Voici la preuve de mes talents</p>
+        <div class="mescrea">
+            <img id="photoslidegauche" class="crea" src="asset/img/Mattéo Trevisan affiche copie.png" alt="Vue sur l'océan">
+            <img class="crea" src="asset/img/i don't like people copie.png" alt="Deuxième création">
+            <img id="photoslidedroit" class="crea" src="asset/img/metaverse affiche copie.png" alt="Troisième création">
+        </div>
+    </section>
+
+    <section id="section3">
+        <h2 id="texte3">A quoi je ressemble de façon créative ?</h2>
+        <p>Voila voila (j'avoue que je savais pas quoi dire)</p>
+        <div class="SectionPhoto">
+            <img class="etoile2" src="asset/img/étoile1.png" alt="Étoile 3">
+            <img id="photo1" src="asset/img/moi copie.png" alt="CV">
+            <img class="etoile2" src="asset/img/étoile2.png" alt="Étoile 4">
+        </div>
+    </section>
+
+    <section id="section4">
+        <h2 id="texte4">Mes compétences</h2>
+        <p>Je métrise les logiciels suivants</p>
+        <img id="photo4" src="asset/img/logo ps.png" alt="Photoshop">
+        <img id="photo4" src="asset/img/logo il.png" alt="Illustrator">
+        <img id="photo4" src="asset/img/logo af.png" alt="After Effect">
+    </section>
+
+    <section id="section5">
+        <h2 id="texte5">Me contacter</h2>
+        <p>N'hésitez pas à me contacter pour plus d'informations</p>
+        <div class="contactitem">
+            <img id="photo5" src="asset/img/logo instagram.png" alt="Contact insta">
+            <p class="contacttext">@matteo.trvs</p>
+        </div>
+        <div class="contactitem">
+            <img id="photo5" src="asset/img/logo linkedin.png" alt="Contact linkedin">
+            <p class="contacttext">Mattéo Trevisan</p>
+        </div>
+        <div class="contactitem">
+            <img id="photo5" src="asset/img/logo mail.png" alt="Contact mail">
+            <p class="contacttext">matteo.trevisan@mail-esd</p>
+        </div>
+        <p class="thankyou">Merci de votre visite !</p>
+    </section>
+
+    <!-- JavaScript and GSAP --------------------------------- -->
     <!-- GSAP -->
     <script src="js/gsap.min.js"></script>
     <!-- GSAP Module -->
@@ -21,8 +74,11 @@
     <script src="js/ScrollTrigger.min.js"></script>
     <script src="js/MotionPathPlugin.min.js"></script>
     <script src="js/Draggable.min.js"></script>
-    <!-- Custum JS -->
-    <script src="js/main.js"></script>
 
+    <!-- JS Custom-->
+    <script src="js/main.js"></script>
 </body>
+<footer id="headerfooter">
+    <h2 id="texteheaderfooter">Merci d'avoir regardé jusqu'à la fin</h2>
+</footer>
 </html>
